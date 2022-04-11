@@ -1,0 +1,57 @@
+[
+  {
+    "title": ["አንድሮሜዳ", "ANDROMEDA"],
+    "img": "https://ethio-bookstore.com/wp-content/uploads/2020/05/1128259031-1.jpg",
+    "price": "250",
+    "publicationDate": "3-12-2019",
+    "page": "438",
+    "author": "Dr.Rodas Tadesse and Dr. Getnet Feleke",
+    "genre": "science"
+  },
+  {
+    "title": ["መርበብት", "merbebt"],
+    "img": "https://ethio-bookstore.com/wp-content/uploads/2020/05/26167585._SX318_.jpg",
+    "price": "120",
+    "publicationDate": "2-21-2010",
+    "page": "241",
+    "author": "Abe Gubenga",
+    "genre": "fiction"
+  },
+  {
+    "title": ["ግርምተ ሳይቴክ", "GIRIMTE SAYTECH"],
+    "img": "https://www.ethiobookreview.com/assets/product_imgs/Amharic/Science/giremte-saytek.jpg",
+    "price": "350",
+    "publicationDate": "4-19-2022",
+    "page": "438",
+    "author": "Solomon Mulugeta Kassa",
+    "genre": "science"
+  },
+  {
+    "title": ["አንድ ለናቱ", "AND LENATU"],
+    "img": "https://ethio-bookstore.com/wp-content/uploads/2020/05/26128993._SX318_.jpg",
+    "price": "300",
+    "publicationDate": "7-7-2007",
+    "page": "600",
+    "author": "Abe Gubenga",
+    "genre": "historical"
+  },
+
+  {
+    "title": [" ሰበዝ", "SEBEZ"],
+    "img": "https://ethio-bookstore.com/wp-content/uploads/2020/06/%E1%88%B0%E1%89%A0%E1%8B%9D.jpg",
+    "price": "300",
+    "publicationDate": "8-24-2020",
+    "page": "200",
+    "author": "ዓለማየሁ ዋሴ እሸቴ",
+    "genre": "bio"
+  },
+  {
+    "title": ["ምንትዋብ", "MINTIWAB"],
+    "img": "https://ethio-bookstore.com/wp-content/uploads/2020/06/%E1%88%9D%E1%8A%95%E1%89%B5%E1%8B%8B%E1%89%A5.jpg",
+    "price": "300",
+    "publicationDate": "8-24-2020",
+    "page": "200",
+    "author": "ሕይወት ተረፈ",
+    "genre": "historical"
+  }
+]
