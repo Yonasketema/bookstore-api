@@ -1,9 +1,8 @@
 const fs = require("fs");
+require("dotenv").config({ path: ".env" });
 
 const mongoose = require("mongoose");
 const Books = require("./../models/bookModel");
-
-const DATABASE_URL = "mongodb://127.0.0.1:27017/bookstore";
 
 mongoose
   .connect(DATABASE_URL, {

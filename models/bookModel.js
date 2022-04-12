@@ -14,7 +14,7 @@ const bookSchema = new mongoose.Schema(
     publicationDate: {
       type: Date,
       default: Date.now,
-      // required: [true, "a book must have year"],
+      
     },
     genre: {
       type: String,

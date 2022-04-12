@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 const bcrypt = require("bcryptjs");
+const validator = require("validator");
 
 const userSchema = new mongoose.Schema(
   {
@@ -15,6 +16,7 @@ const userSchema = new mongoose.Schema(
       required: [true, "please tell us your email address"],
       unique: true,
       lowercase: true,
+      validate: [validator.isEmail, "please provide a valid email"],
     },
     role: {
       type: String,
@@ -31,7 +33,15 @@ const userSchema = new mongoose.Schema(
 
     passwordConfirm: {
       type: String,
-      required: [true, "please provide a passwordConfirm"],
+      required: [true, "please  confirm your password"],
+      //This only work on save() create()
+      //when we want update the user we have to use save()
+      validate: {
+        validator: function (el) {
+          return el === this.password;
+        },
+        message: "password are not same!!!",
+      },
     },
     passwordChangedAt: {
       type: Date,
@@ -74,7 +84,5 @@ userSchema.methods.changePasswordAt = function (iat) {
 };
 
 const User = new mongoose.model("User", userSchema);
-
-// userSchema.methods.
 
 module.exports = User;
